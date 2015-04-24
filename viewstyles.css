@@ -469,39 +469,3 @@ hr.border-push{display:none}
 .mason-grid[data-columns]::before {content: &#39;3 .column-main.size-1of3&#39;;}}
 
 @media screen and (max-width:40em){#primary_nav_wrap{display:none}.slicknav_menu{display:block}}
-</style>
-
-<b:if cond='data:blog.pageType != &quot;index&quot;'>
-<style type='text/css'>
-.container:after,.container:before{display:table;content:&#39;&#39;;line-height:0}
-.Collage {padding:40px 0 100px 0;}
-#sidebar-wrapper{display:block}
-.postme-item{min-height:100%;max-height:100%}
-.arlina-item{width:100%;padding-right:0}.arlina-item h2{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
-.postme-item h3{text-align:left}
-.inner{width:67.66%;float:left;padding-right:20px}
-div#sidebar-wrapper{width:32%;float:right}
-.postme-item.wow.fadeIn{margin-bottom:30px;padding:20px;border:1px solid #eee}
-div#leftContent{width:100%;max-width:1170px;min-width:755px;margin:0 auto;margin-top:initial;overflow:hidden;padding-top:20px;padding-left:20px;padding-right:0}
-
-@media (max-width: 979px) and (min-width: 768px){
-.post-sharing{margin:0;position:relative;right:0;top:0;text-align:center}}
-
-@media (max-width: 767px) and (min-width: 480px){
-.inner{width:100%;float:none;padding-right:initial;}
-.post-sharing{margin:0;position:relative;right:0;top:0;text-align:center}
-div#sidebar-wrapper{width:100%;float:none;margin-left:-9px}
-.related-item img{width:100%;height:auto}
-div#leftContent{max-width:100%;min-width:100%;width:100%}
-.related-major  [class*=&#39;col-&#39;]{padding-left:10px}}
-
-@media (max-width: 479px){
-.inner{width:320px}
-div#leftContent{max-width:100%;min-width:100%;width:100%;padding-left:0}
-.postme-item h1{font-size:27px}
-.post-sharing{margin:0;position:relative;right:0;top:0;text-align:center}
-.sidebar .widget{padding:5px}
-.inner{padding:10px}
-div#sidebar-wrapper{width:100%}
-.related-major  [class*=&#39;col-&#39;]{padding-left:10px}
-.related-item img{width:100%;height:auto;}}
